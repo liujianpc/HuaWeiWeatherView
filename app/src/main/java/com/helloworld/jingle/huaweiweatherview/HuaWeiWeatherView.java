@@ -95,7 +95,7 @@ public class HuaWeiWeatherView extends View {
         canvas.restore();
     }
 
-    public void chageAngle(final float trueAngle) {
+    public void changeAngle(final float trueAngle) {
         if (isRunning) {
             return;
         }

@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         huaWeiWeatherView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                huaWeiWeatherView.chageAngle(200f);
+                huaWeiWeatherView.changeAngle(200f);
             }
         });
         huaWeiWeatherView.setOnAngleColorListener(new HuaWeiWeatherView.OnAngleColorListener() {
