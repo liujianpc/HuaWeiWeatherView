@@ -12,7 +12,7 @@
     tools:context="com.helloworld.jingle.huaweiweatherview.MainActivity">
 
     <com.helloworld.jingle.huaweiweatherview.HuaWeiWeatherView
-        android:layout_width="200dp"
+        android:layout_width="300dp"
         android:layout_height="300dp"
         android:layout_gravity="center"
         android:id="@+id/huaWeiWeatherView" />

@@ -25,9 +25,8 @@ public class MainActivity extends AppCompatActivity {
         });
         huaWeiWeatherView.setOnAngleColorListener(new HuaWeiWeatherView.OnAngleColorListener() {
             @Override
-            public void colorListener(int red, int green) {
-                Color color = new Color();
-                int backgroundColor = color.argb(50,red,green,0);
+            public void colorListener(int red, int green, int blue) {
+                int backgroundColor = Color.argb(100,red,green,blue);
                 activitymain.setBackgroundColor(backgroundColor);
             }
         });
